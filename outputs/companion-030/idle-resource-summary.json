@@ -1,0 +1,39 @@
+{
+  "idle": {
+    "root_pid": 60810,
+    "started_epoch": 1794675470.667964,
+    "duration_seconds": 1800.126,
+    "sample_count": 357,
+    "interval_seconds": 5.0,
+    "cpu_average_percent": 0.005,
+    "cpu_sample_mean_percent": 0.005,
+    "cpu_sample_peak_percent": 0.9872,
+    "cpu_seconds": 0.09,
+    "rss_peak_bytes": 53444608,
+    "rss_end_bytes": 40992768,
+    "max_processes": 1,
+    "companion_file_after_seconds": 916.1,
+    "user_data_unchanged": true,
+    "window_server_pid": 162,
+    "window_server_rss_start_bytes": 80412672,
+    "window_server_rss_end_bytes": 75792384,
+    "window_server_cpu_seconds": 388.68,
+    "budget_cpu_average_percent": 1.0,
+    "budget_rss_bytes": 100000000,
+    "cpu_within_budget": true,
+    "rss_within_budget": true
+  },
+  "native_validation_peak": {
+    "label": "native --validate-at exercise, includes zone animations and settings windows; not drag, streaming chat, or research",
+    "root_pid": 27771,
+    "duration_seconds": 9.689,
+    "sample_count": 31,
+    "cpu_seconds": 0.64,
+    "cpu_average_percent": 6.8442,
+    "cpu_sample_peak_percent": 62.3345,
+    "rss_peak_bytes": 118276096,
+    "rss_end_bytes": 112033792,
+    "max_processes": 1
+  },
+  "note": "Idle budget uses a 30-minute average and 100000000-byte RSS. The validation peak is separate and includes animations plus settings windows."
+}

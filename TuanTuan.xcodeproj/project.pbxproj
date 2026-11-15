@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E695ED2CE3D5BCFFC496FC3 /* SettingsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9506E28457F579DAEE259BD3 /* SettingsWindowController.swift */; };
+		1D633226A20BB372E52F83AE /* OpenRouterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9724DBC691546041DC1A72 /* OpenRouterClient.swift */; };
+		301C2B9475EE92A3737426D9 /* PetWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9B8896D17BC5F0CD18548A /* PetWindowController.swift */; };
+		3B42796E8AB9CDCF21044EAD /* ResearchTaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936DFFC798CA943E15A763FC /* ResearchTaskStore.swift */; };
+		468944FBA1E6A65D03DFAFF4 /* PetGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07086264A7D69D787088311 /* PetGeometry.swift */; };
+		486B7100B4D06D6A17FA9BBF /* MemoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC278AA1FE43885A39C2D1A8 /* MemoryStore.swift */; };
+		6FD7F4F4D28EB9F91D6AF8EC /* pet.png in Resources */ = {isa = PBXBuildFile; fileRef = B2EE28E44EBCF7DAC4099B0C /* pet.png */; };
+		760C750F21C6E81E7BFF18B0 /* AgentRuntimeValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBB3802618B12EF65CCE7D5 /* AgentRuntimeValidation.swift */; };
+		7D13AA570D47A34B07DBE926 /* MemoryTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494474E0442C629EC2257A30 /* MemoryTypes.swift */; };
+		822576CB5D63D1FC4D3EA748 /* KeychainAPIKeyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55132D8F1BC8910BC6D2B23 /* KeychainAPIKeyStore.swift */; };
+		84BBF276B5263F2BAFCE976D /* AgentTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D9369EC5290F36FCFEB600 /* AgentTypes.swift */; };
+		944A4A755AE255AB7A2A74E9 /* pet-alpha.bin in Resources */ = {isa = PBXBuildFile; fileRef = CC81675ECEC82164FB3FE7DA /* pet-alpha.bin */; };
+		A04C3B568DFDF39A1E08287B /* PetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E791B02C0112218882BFF321 /* PetView.swift */; };
+		A4B9FAB3C46C0CA580367791 /* CompanionMemoryPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC72872B16D27E594C7B77C /* CompanionMemoryPane.swift */; };
+		A8211915EA43B206AE468497 /* AgentCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BF5977E875B1399EA7A299 /* AgentCoordinator.swift */; };
+		CDE861D7C86967E0BEDF616A /* CompanionRhythm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B6DBB49A8FA13967D36820 /* CompanionRhythm.swift */; };
+		CEB4F511153324975919E6E3 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D0EC541FFDC367E287BCC1 /* AppSettings.swift */; };
+		DCA672A3BF3DAB3231212E0B /* ChatWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695C3E3FB0B484896F8337F8 /* ChatWindowController.swift */; };
+		E4326102E97FB3E20846461E /* ResearchWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33229DBED99F92DBA273F9E /* ResearchWorker.swift */; };
+		F05E9078E49375D9C09AA8D6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76D4BC1BC89364765DDBC0B /* main.swift */; };
+		FBBACA4B19606288F65D6990 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F338BF140E951AADCE06F51 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E9B8896D17BC5F0CD18548A /* PetWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetWindowController.swift; sourceTree = "<group>"; };
+		1F9724DBC691546041DC1A72 /* OpenRouterClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenRouterClient.swift; sourceTree = "<group>"; };
+		22BF5977E875B1399EA7A299 /* AgentCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentCoordinator.swift; sourceTree = "<group>"; };
+		2CBB3802618B12EF65CCE7D5 /* AgentRuntimeValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentRuntimeValidation.swift; sourceTree = "<group>"; };
+		38D0EC541FFDC367E287BCC1 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		494474E0442C629EC2257A30 /* MemoryTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryTypes.swift; sourceTree = "<group>"; };
+		695C3E3FB0B484896F8337F8 /* ChatWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatWindowController.swift; sourceTree = "<group>"; };
+		6F338BF140E951AADCE06F51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		936DFFC798CA943E15A763FC /* ResearchTaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchTaskStore.swift; sourceTree = "<group>"; };
+		9506E28457F579DAEE259BD3 /* SettingsWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWindowController.swift; sourceTree = "<group>"; };
+		A0B6DBB49A8FA13967D36820 /* CompanionRhythm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionRhythm.swift; sourceTree = "<group>"; };
+		A33229DBED99F92DBA273F9E /* ResearchWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchWorker.swift; sourceTree = "<group>"; };
+		A76D4BC1BC89364765DDBC0B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AC278AA1FE43885A39C2D1A8 /* MemoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryStore.swift; sourceTree = "<group>"; };
+		B2EE28E44EBCF7DAC4099B0C /* pet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pet.png; sourceTree = "<group>"; };
+		B6114264B5DC1748BB2C73E8 /* TuanTuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuanTuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D9369EC5290F36FCFEB600 /* AgentTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentTypes.swift; sourceTree = "<group>"; };
+		CC81675ECEC82164FB3FE7DA /* pet-alpha.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "pet-alpha.bin"; sourceTree = "<group>"; };
+		D55132D8F1BC8910BC6D2B23 /* KeychainAPIKeyStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainAPIKeyStore.swift; sourceTree = "<group>"; };
+		E791B02C0112218882BFF321 /* PetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetView.swift; sourceTree = "<group>"; };
+		EBC72872B16D27E594C7B77C /* CompanionMemoryPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionMemoryPane.swift; sourceTree = "<group>"; };
+		F07086264A7D69D787088311 /* PetGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetGeometry.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3E0E0C502A9BC5C9B0047B20 /* TuanTuan */ = {
+			isa = PBXGroup;
+			children = (
+				22BF5977E875B1399EA7A299 /* AgentCoordinator.swift */,
+				2CBB3802618B12EF65CCE7D5 /* AgentRuntimeValidation.swift */,
+				B9D9369EC5290F36FCFEB600 /* AgentTypes.swift */,
+				6F338BF140E951AADCE06F51 /* AppDelegate.swift */,
+				38D0EC541FFDC367E287BCC1 /* AppSettings.swift */,
+				695C3E3FB0B484896F8337F8 /* ChatWindowController.swift */,
+				EBC72872B16D27E594C7B77C /* CompanionMemoryPane.swift */,
+				A0B6DBB49A8FA13967D36820 /* CompanionRhythm.swift */,
+				D55132D8F1BC8910BC6D2B23 /* KeychainAPIKeyStore.swift */,
+				A76D4BC1BC89364765DDBC0B /* main.swift */,
+				AC278AA1FE43885A39C2D1A8 /* MemoryStore.swift */,
+				494474E0442C629EC2257A30 /* MemoryTypes.swift */,
+				1F9724DBC691546041DC1A72 /* OpenRouterClient.swift */,
+				F07086264A7D69D787088311 /* PetGeometry.swift */,
+				E791B02C0112218882BFF321 /* PetView.swift */,
+				1E9B8896D17BC5F0CD18548A /* PetWindowController.swift */,
+				936DFFC798CA943E15A763FC /* ResearchTaskStore.swift */,
+				A33229DBED99F92DBA273F9E /* ResearchWorker.swift */,
+				9506E28457F579DAEE259BD3 /* SettingsWindowController.swift */,
+			);
+			name = TuanTuan;
+			path = Sources/TuanTuan;
+			sourceTree = "<group>";
+		};
+		9DD99766F961ADF687BE6CCF = {
+			isa = PBXGroup;
+			children = (
+				F9B3B7B8F2497E5D18EF45E3 /* Resources */,
+				3E0E0C502A9BC5C9B0047B20 /* TuanTuan */,
+				C3482276E57770BD10DFCE24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3482276E57770BD10DFCE24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6114264B5DC1748BB2C73E8 /* TuanTuan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9B3B7B8F2497E5D18EF45E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CC81675ECEC82164FB3FE7DA /* pet-alpha.bin */,
+				B2EE28E44EBCF7DAC4099B0C /* pet.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3E051A616E9597F9B375441 /* TuanTuan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3438EDA6E5D89DFC91E9D15 /* Build configuration list for PBXNativeTarget "TuanTuan" */;
+			buildPhases = (
+				68D27E27D540BCEE13F94C01 /* Sources */,
+				08936533F4126524273FE58F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TuanTuan;
+			packageProductDependencies = (
+			);
+			productName = TuanTuan;
+			productReference = B6114264B5DC1748BB2C73E8 /* TuanTuan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DC2D9A6A649AC44BB0A4C9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 67C7F126428BA7C1657E80D2 /* Build configuration list for PBXProject "TuanTuan" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 9DD99766F961ADF687BE6CCF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C3482276E57770BD10DFCE24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3E051A616E9597F9B375441 /* TuanTuan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08936533F4126524273FE58F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944A4A755AE255AB7A2A74E9 /* pet-alpha.bin in Resources */,
+				6FD7F4F4D28EB9F91D6AF8EC /* pet.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68D27E27D540BCEE13F94C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8211915EA43B206AE468497 /* AgentCoordinator.swift in Sources */,
+				760C750F21C6E81E7BFF18B0 /* AgentRuntimeValidation.swift in Sources */,
+				84BBF276B5263F2BAFCE976D /* AgentTypes.swift in Sources */,
+				FBBACA4B19606288F65D6990 /* AppDelegate.swift in Sources */,
+				CEB4F511153324975919E6E3 /* AppSettings.swift in Sources */,
+				DCA672A3BF3DAB3231212E0B /* ChatWindowController.swift in Sources */,
+				A4B9FAB3C46C0CA580367791 /* CompanionMemoryPane.swift in Sources */,
+				CDE861D7C86967E0BEDF616A /* CompanionRhythm.swift in Sources */,
+				822576CB5D63D1FC4D3EA748 /* KeychainAPIKeyStore.swift in Sources */,
+				486B7100B4D06D6A17FA9BBF /* MemoryStore.swift in Sources */,
+				7D13AA570D47A34B07DBE926 /* MemoryTypes.swift in Sources */,
+				1D633226A20BB372E52F83AE /* OpenRouterClient.swift in Sources */,
+				468944FBA1E6A65D03DFAFF4 /* PetGeometry.swift in Sources */,
+				A04C3B568DFDF39A1E08287B /* PetView.swift in Sources */,
+				301C2B9475EE92A3737426D9 /* PetWindowController.swift in Sources */,
+				3B42796E8AB9CDCF21044EAD /* ResearchTaskStore.swift in Sources */,
+				E4326102E97FB3E20846461E /* ResearchWorker.swift in Sources */,
+				0E695ED2CE3D5BCFFC496FC3 /* SettingsWindowController.swift in Sources */,
+				F05E9078E49375D9C09AA8D6 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2989DCD7035E36C433951DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 6;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 0.3.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuantuan.prototype;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		4C8A116E05FA41427F474E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 6;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 0.3.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuantuan.prototype;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		59BFA983E0BDDCE68E0D32C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_NAME = TuanTuan;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E909699B23495DC154ADA676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_NAME = TuanTuan;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67C7F126428BA7C1657E80D2 /* Build configuration list for PBXProject "TuanTuan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C8A116E05FA41427F474E96 /* Debug */,
+				2989DCD7035E36C433951DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B3438EDA6E5D89DFC91E9D15 /* Build configuration list for PBXNativeTarget "TuanTuan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59BFA983E0BDDCE68E0D32C6 /* Debug */,
+				E909699B23495DC154ADA676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DC2D9A6A649AC44BB0A4C9F /* Project object */;
+}
